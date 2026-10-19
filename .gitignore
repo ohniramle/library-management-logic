@@ -13,4 +13,4 @@
 *.tmp
 
 # Backup do antigo clone
-/library-management-logic/
+/library-management-logic//main/

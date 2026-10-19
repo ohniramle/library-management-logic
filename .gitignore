@@ -1,0 +1,16 @@
+# Arquivos compilados pelo Maven
+/target/
+
+# Arquivos de configuração locais
+/nbproject/private/
+
+# Arquivos de IDE
+.idea/
+.vscode/
+
+# Arquivos temporários
+*.log
+*.tmp
+
+# Backup do antigo clone
+/library-management-logic/

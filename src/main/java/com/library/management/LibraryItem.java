@@ -3,8 +3,8 @@ package com.library.management;
 
 
 public abstract class LibraryItem {
-    private String id;
-    private String title;
+    private final String id;
+    private final String title;
     private boolean borrowed;
     
     public LibraryItem(String id, String title){
@@ -24,14 +24,9 @@ public abstract class LibraryItem {
     public String getTitulo(){
         return title;
     }
-    public double calculateFine(int diasAtraso){
-        return diasAtraso * 2.00;
-    }
+    public abstract double calculateFine(int diasAtraso);
     
-            
-    public void setTitle(String title) {
-        this.title = title;
-    }
+           
     public boolean isBorrowed(){
         return this.borrowed;
     }
